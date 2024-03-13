@@ -1,4 +1,6 @@
-fetch('kotoba.json')
+
+
+fetch('../resources/kotoba.json')
     .then(response => response.json())
     .then(data => {
             const cards = document.querySelectorAll('.card');
