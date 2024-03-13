@@ -1,0 +1,18 @@
+[
+    {
+        "kanji": "学生",
+        "kana": "がくせい",
+        "romaji": "gakusei",
+        "translation-id": "murid",
+        "example-jp": "私は学生です。",
+        "example-id": "Saya adalah seorang pelajar."
+    },
+    {
+        "kanji": "猫",
+        "kana": "ねこ",
+        "romaji": "neko",
+        "translation-id": "cat",
+        "example-jp": "猫はかわいいです。",
+        "example-id": "Kucing itu lucu."
+    }
+]

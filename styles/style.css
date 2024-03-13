@@ -23,11 +23,12 @@ body {
   background-color: var(--waikawa-gray-950);
   max-height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#container {
+#card {
   background-color: var(--waikawa-gray-800);
   width: 80%;
   max-width: 600px;
@@ -47,6 +48,6 @@ body {
   margin-bottom: 2%;
 }
 
-#container::-webkit-scrollbar {
+#card::-webkit-scrollbar {
   display: none;
 }
