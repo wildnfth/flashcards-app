@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .jp-kanji-400 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-violet-700 p-2 rounded text-white font-semibold min-w-16 hover:bg-violet-900 shadow;
+  }
+}

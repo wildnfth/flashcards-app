@@ -96,7 +96,9 @@
     "yaml": "^2.4.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startdev": "tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch",
+    "deploy": "tailwindcss -i ./src/css/input.css -o ./public/css/final.css --minify"
   },
   "keywords": [],
   "author": "",

@@ -5,9 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flashcard App</title>
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/final.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <h1 class="text-5xl font-bold text-blue-700">Hello World</h1>
+  <body class="bg-slate-400 h-dvh flex justify-center items-center">
+    <div class="container flex flex-col justify-center items-center p-4 gap-4">
+      <div
+        class="card bg-slate-700 rounded shadow p-6 text-white flex flex-col items-center justify-center w-full"
+      >
+        <div class="flex flex-row justify-between gap-x-4 text-4xl">
+          <div class="text-center jp-kanji-400">元気</div>
+          <!-- <div class="text-center"><i class="fa-solid fa-arrow-right"></i></div> -->
+          <div class="text-center jp-kanji-400">(げんき)</div>
+        </div>
+        <div class="w-2/5 border-b-2 m-4"></div>
+        <div class="text-center text-3xl mb-4">baik-baik saja</div>
+        <div class="text-2xl">
+          <ul>
+            <li class="jp-kanji-400">元気ですか？</li>
+            <li>apa kabar kamu?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="buttons flex flex-row gap-x-4">
+        <button class="btn"><i class="fa-solid fa-angle-left"></i></button>
+        <button class="btn">Flip</button>
+        <button class="btn"><i class="fa-solid fa-angle-right"></i></button>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/d8fa7fbaf7.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
